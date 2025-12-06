@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
 
       ../../modules/boot/loader/systemd-boot.nix
+      ../../modules/boot/plymouth.nix
       ../../modules/hardware/bluetooth.nix
       ../../modules/hardware/nvidia.nix
       ../../modules/networking/networkmanager.nix
