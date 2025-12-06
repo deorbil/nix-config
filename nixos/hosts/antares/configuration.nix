@@ -11,6 +11,7 @@
 
       ../../modules/boot/loader/systemd-boot.nix
       ../../modules/networking/networkmanager.nix
+      ../../modules/services/flatpak.nix
       ../../modules/nix.nix
     ];
 
@@ -88,8 +89,6 @@
 
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
-
-  services.flatpak.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
