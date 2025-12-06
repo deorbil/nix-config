@@ -11,6 +11,7 @@
 
       ../../modules/boot/loader/systemd-boot.nix
       ../../modules/networking/networkmanager.nix
+      ../../modules/services/displayManager/gdm.nix
       ../../modules/services/flatpak.nix
       ../../modules/nix.nix
     ];
@@ -37,7 +38,6 @@
 
 
   # Enable the GNOME Desktop Environment.
-  services.displayManager.gdm.enable = true;
   services.desktopManager.gnome.enable = true;
   
 
