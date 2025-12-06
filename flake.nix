@@ -7,7 +7,7 @@
     nixosConfigurations = {
       antares = nixpkgs.lib.nixosSystem {
         modules = [
-          ./configuration.nix
+          ./nixos/hosts/antares/configuration.nix
         ];
       };
     };
