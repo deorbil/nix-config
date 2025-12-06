@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
 
       ../../modules/boot/loader/systemd-boot.nix
+      ../../modules/hardware/bluetooth.nix
       ../../modules/networking/networkmanager.nix
       ../../modules/services/desktopManager/gnome.nix
       ../../modules/services/displayManager/gdm.nix
