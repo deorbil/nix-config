@@ -11,6 +11,7 @@
 
       ../../modules/boot/loader/systemd-boot.nix
       ../../modules/hardware/bluetooth.nix
+      ../../modules/hardware/nvidia.nix
       ../../modules/networking/networkmanager.nix
       ../../modules/services/desktopManager/gnome.nix
       ../../modules/services/displayManager/gdm.nix
