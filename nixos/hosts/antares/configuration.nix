@@ -16,6 +16,7 @@
       ../../modules/services/displayManager/gdm.nix
       ../../modules/services/flatpak.nix
       ../../modules/nix.nix
+      ../../modules/nixpkgs.nix
     ];
 
   networking.hostName = "antares"; # Define your hostname.
