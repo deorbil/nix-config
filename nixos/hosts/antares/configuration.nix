@@ -11,6 +11,7 @@
 
       ../../modules/boot/loader/systemd-boot.nix
       ../../modules/networking/networkmanager.nix
+      ../../modules/services/desktopManager/gnome.nix
       ../../modules/services/displayManager/gdm.nix
       ../../modules/services/flatpak.nix
       ../../modules/nix.nix
@@ -35,11 +36,6 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-
-
-  # Enable the GNOME Desktop Environment.
-  services.desktopManager.gnome.enable = true;
-  
 
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
