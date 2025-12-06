@@ -10,12 +10,10 @@
       ./hardware-configuration.nix
 
       ../../modules/boot/loader/systemd-boot.nix
+      ../../modules/networking/networkmanager.nix
     ];
 
   networking.hostName = "antares"; # Define your hostname.
-
-  # Configure network connections interactively with nmcli or nmtui.
-  networking.networkmanager.enable = true;
 
   # Set your time zone.
   time.timeZone = "Asia/Jakarta";
