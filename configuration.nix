@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
 
+      ./modules/gdm.nix
       ./modules/networkmanager.nix
       ./modules/systemd-boot.nix
     ];
@@ -35,7 +36,6 @@
 
 
   # Enable the GNOME Desktop Environment.
-  services.displayManager.gdm.enable = true;
   services.desktopManager.gnome.enable = true;
   
 
