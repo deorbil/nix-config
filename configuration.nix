@@ -55,6 +55,7 @@
   users.users.deorbil = {
     isNormalUser = true;
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+    shell = pkgs.zsh;
   };
 
   # programs.firefox.enable = true;
