@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
 
+      ./modules/flatpak.nix
       ./modules/gdm.nix
       ./modules/gnome.nix
       ./modules/networkmanager.nix
