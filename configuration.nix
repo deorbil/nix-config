@@ -13,6 +13,7 @@
       ./modules/gdm.nix
       ./modules/gnome.nix
       ./modules/networkmanager.nix
+      ./modules/nixpkgs.nix
       ./modules/systemd-boot.nix
       ./modules/zsh.nix
     ];
