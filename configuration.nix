@@ -13,6 +13,7 @@
       ./modules/gnome.nix
       ./modules/networkmanager.nix
       ./modules/systemd-boot.nix
+      ./modules/zsh.nix
     ];
 
   networking.hostName = "antares"; # Define your hostname.
