@@ -14,6 +14,7 @@
       ./modules/gnome.nix
       ./modules/networkmanager.nix
       ./modules/nixpkgs.nix
+      ./modules/nvidia.nix
       ./modules/systemd-boot.nix
       ./modules/zsh.nix
     ];
