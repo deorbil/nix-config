@@ -13,6 +13,7 @@
       ./modules/gdm.nix
       ./modules/gnome.nix
       ./modules/networkmanager.nix
+      ./modules/nix.nix
       ./modules/nixpkgs.nix
       ./modules/nvidia.nix
       ./modules/plymouth.nix
