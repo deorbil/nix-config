@@ -2,24 +2,24 @@
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
 
-      ./modules/flatpak.nix
-      ./modules/gdm.nix
-      ./modules/gnome.nix
-      ./modules/networkmanager.nix
-      ./modules/nix.nix
-      ./modules/nixpkgs.nix
-      ./modules/nvidia.nix
-      ./modules/plymouth.nix
-      ./modules/printing.nix
-      ./modules/systemd-boot.nix
-      ./modules/zsh.nix
+      inputs.self.nixosModules.flatpak
+      inputs.self.nixosModules.gdm
+      inputs.self.nixosModules.gnome
+      inputs.self.nixosModules.networkmanager
+      inputs.self.nixosModules.nix
+      inputs.self.nixosModules.nixpkgs
+      inputs.self.nixosModules.nvidia
+      inputs.self.nixosModules.plymouth
+      inputs.self.nixosModules.printing
+      inputs.self.nixosModules.systemd-boot
+      inputs.self.nixosModules.zsh
     ];
 
   networking.hostName = "antares"; # Define your hostname.
